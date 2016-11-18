@@ -1,31 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data-sources>
-	<data-source id="h2_server-1407833295499-2102238550" provider="generic" driver="h2_server" name="H2 - TRUE" create-date="1407833666447" update-date="1407833739998" save-password="true" show-system-objects="true" read-only="false">
-		<connection host="localhost" port="9092" server="" database="C:\Users\johan\Desktop\annat\kemiradb;AUTO_SERVER=TRUE" url="jdbc:h2:C:\Users\johan\Desktop\annat\kemiradb;AUTO_SERVER=TRUE" user="sa" type="dev">
-			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" user="" save-password="false">
-				<property name="port" value="22"/>
-				<property name="host" value=""/>
-				<property name="keyPath" value=""/>
-				<property name="authType" value="PASSWORD"/>
-			</network-handler>
-			<network-handler type="PROXY" id="socks_proxy" enabled="false" user="" save-password="false">
-				<property name="socks-host" value=""/>
-				<property name="socks-port" value="1080"/>
-			</network-handler>
-		</connection>
-	</data-source>
-	<data-source id="h2_embedded-1407833940879-805786141" provider="generic" driver="h2_embedded" name="KemiraDb" create-date="1407833967724" update-date="1407834141388" save-password="true" show-system-objects="true" read-only="false">
-		<connection server="" database="C:\Users\johan\Desktop\annat\kemiradb;AUTO_SERVER=TRUE" url="jdbc:h2:C:\Users\johan\Desktop\annat\kemiradb;AUTO_SERVER=TRUE" user="sa" type="dev">
-			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" user="" save-password="false">
-				<property name="port" value="22"/>
-				<property name="host" value=""/>
-				<property name="keyPath" value=""/>
-				<property name="authType" value="PASSWORD"/>
-			</network-handler>
-			<network-handler type="PROXY" id="socks_proxy" enabled="false" user="" save-password="false">
-				<property name="socks-host" value=""/>
-				<property name="socks-port" value="1080"/>
-			</network-handler>
-		</connection>
-	</data-source>
+
 </data-sources>
